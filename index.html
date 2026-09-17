@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SculptFlow — One inbox. Every conversation. More consultations.</title>
+<meta name="description" content="SculptFlow helps plastic surgery and aesthetic clinics manage WhatsApp, Instagram and Messenger conversations, organize leads, automate follow-up, schedule consultations and run campaigns — all from one place.">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- =========================== HEADER =========================== -->
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <a href="#top" class="logo">
+      <span class="logo-mark" aria-hidden="true"></span>
+      SculptFlow
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#flow">Product</a>
+      <a href="#integrations">Integrations</a>
+      <a href="#inbox">Inbox</a>
+      <a href="#automation">Automation</a>
+      <a href="#reactivation">Reactivation</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#demo" class="btn btn-ghost">Log in</a>
+      <a href="#demo" class="btn btn-primary">Request a demo</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#flow">Product</a>
+    <a href="#integrations">Integrations</a>
+    <a href="#inbox">Inbox</a>
+    <a href="#automation">Automation</a>
+    <a href="#reactivation">Reactivation</a>
+    <a href="#faq">FAQ</a>
+    <a href="#demo" class="btn btn-primary btn-block">Request a demo</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- =========================== HERO =========================== -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy reveal" id="revealHero">
+        <span class="badge"><span class="dot"></span>Built for plastic surgery &amp; aesthetic clinics</span>
+        <h1>One inbox. Every conversation. More <em>consultation</em> opportunities.</h1>
+        <p class="lede">SculptFlow brings your clinic's WhatsApp, Instagram and Messenger conversations, leads, scheduling and campaigns together — so nothing you'd normally lose track of gets lost.</p>
+        <div class="hero-ctas">
+          <a href="#demo" class="btn btn-primary">Request a demo</a>
+          <a href="#flow" class="btn btn-ghost">See how it works</a>
+        </div>
+        <div class="hero-channels">
+          <span>Connects with</span>
+          <div class="chan-row">
+            <span class="chan-chip">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2a9 9 0 0 0-7.8 13.5L3 22l6.7-1.2A9 9 0 1 0 12 2Z" stroke="#1E8E5A" stroke-width="1.6"/><path d="M8.5 8.7c.2-.6.6-.6 1-.6h.6c.2 0 .4.1.5.4l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.2-.1.3 0 .5.5.9 1.4 1.8 2.3 2.3.2.1.3.1.5 0l.6-.5c.2-.1.4-.2.6-.1l1.7.7c.3.1.4.3.4.5v.6c0 .4 0 .8-.6 1-1 .5-2.7.3-4.6-1.3-1.6-1.3-2.6-2.9-3-4.4-.2-.7-.2-1.5.1-2z" fill="#1E8E5A"/></svg>
+              WhatsApp
+            </span>
+            <span class="chan-chip">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="#C13584" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="#C13584" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="#C13584"/></svg>
+              Instagram
+            </span>
+            <span class="chan-chip">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C6.5 2 2 6.1 2 11.2c0 2.9 1.4 5.4 3.7 7.1V22l3.4-1.9c.9.2 1.9.4 2.9.4 5.5 0 10-4.1 10-9.3S17.5 2 12 2Z" stroke="#0A66C2" stroke-width="1.6"/><path d="M6.8 13.6l3.2-3.4 2.5 1.9 3.6-3.7-3.3 3.5-2.5-1.9-3.5 3.6Z" fill="#0A66C2"/></svg>
+              Messenger
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" id="revealVisual">
+        <div class="mock-window">
+          <div class="mock-titlebar">
+            <i></i><i></i><i></i>
+            <span>SculptFlow — Inbox</span>
+          </div>
+          <div class="mock-body">
+            <div class="mock-sidebar">
+              <div class="item active">Inbox</div>
+              <div class="item">Leads</div>
+              <div class="item">Appointments</div>
+              <div class="item">Campaigns</div>
+              <div class="item">Automations</div>
+            </div>
+            <div class="mock-main">
+              <span class="mock-tag">Maria R. · Rhinoplasty inquiry · WhatsApp</span>
+              <div class="mock-msg in">Hi, I saw your page — do you have consultation slots this month?</div>
+              <div class="mock-msg ai">Yes! I can share available times — would mornings or afternoons work better?</div>
+              <div class="mock-msg in">Afternoons, please.</div>
+              <div class="mock-msg out">Taking it from here — I have Thursday 3:30pm open. Shall I book it?</div>
+            </div>
+          </div>
+        </div>
+        <div class="mock-float f1">
+          <span class="swatch" style="background:#175C4E">✓</span>
+          Consultation booked
+        </div>
+        <div class="mock-float f2">
+          <span class="swatch" style="background:#2FAE84">↺</span>
+          Old lead reactivated
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHO IT'S FOR STRIP ===================== -->
+  <section class="segment-strip">
+    <div class="wrap">
+      <span class="label">Built for</span>
+      <ul class="segment-list">
+        <li>Plastic surgery clinics</li>
+        <li>Aesthetic clinics</li>
+        <li>Cosmetic surgery centers</li>
+        <li>Medical aesthetic practices</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- =========================== FLOW =========================== -->
+  <section class="section-pad" id="flow">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker" style="justify-content:center">How it fits together</span>
+        <h2>From first message to booked consultation</h2>
+        <p class="lede">SculptFlow connects the steps that usually live in separate apps and spreadsheets into one continuous flow.</p>
+      </div>
+
+      <div class="flow-list">
+        <div class="flow-item">
+          <span class="num">01</span>
+          <h4>Integrations</h4>
+          <p>Connect WhatsApp, Instagram and Messenger to one account.</p>
+        </div>
+        <div class="flow-item">
+          <span class="num">02</span>
+          <h4>Conversations</h4>
+          <p>Every message is kept together in one timeline, whoever sent it.</p>
+        </div>
+        <div class="flow-item">
+          <span class="num">03</span>
+          <h4>Unified inbox</h4>
+          <p>Staff see and manage every channel from a single shared inbox.</p>
+        </div>
+        <div class="flow-item">
+          <span class="num">04</span>
+          <h4>Leads</h4>
+          <p>Conversations become organized leads with source and status.</p>
+        </div>
+        <div class="flow-item">
+          <span class="num">05</span>
+          <h4>Scheduling</h4>
+          <p>Leads move toward booked consultations and appointments.</p>
+        </div>
+        <div class="flow-item">
+          <span class="num">06</span>
+          <h4>Campaigns</h4>
+          <p>Follow-up, reminders and reactivation keep leads moving.</p>
+        </div>
+        <div class="flow-item">
+          <span class="num">07</span>
+          <h4>Automation</h4>
+          <p>Repetitive replies and reminders run on their own, in the background.</p>
+        </div>
+        <div class="flow-item">
+          <span class="num">08</span>
+          <h4>Consultations</h4>
+          <p>More of the conversations you already have turn into booked visits.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= INTEGRATIONS ======================= -->
+  <section class="section-pad tint" id="integrations">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Integrations</span>
+        <h2>Every channel your leads already use</h2>
+        <p class="lede">Clinics rarely get inquiries through one channel. SculptFlow brings them together instead of asking your team to work across three separate apps.</p>
+      </div>
+
+      <div class="integration-cards">
+        <div class="integration-card">
+          <span class="icn icn-whatsapp">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2a9 9 0 0 0-7.8 13.5L3 22l6.7-1.2A9 9 0 1 0 12 2Z" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h4>WhatsApp</h4>
+          <p>Manage consultation inquiries and follow-up on the channel most clinics already get the most messages on.</p>
+        </div>
+        <div class="integration-card">
+          <span class="icn icn-instagram">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h4>Instagram</h4>
+          <p>Bring DMs and comment-driven inquiries into the same inbox as everything else, instead of a separate app.</p>
+        </div>
+        <div class="integration-card">
+          <span class="icn icn-messenger">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.5 2 2 6.1 2 11.2c0 2.9 1.4 5.4 3.7 7.1V22l3.4-1.9c.9.2 1.9.4 2.9.4 5.5 0 10-4.1 10-9.3S17.5 2 12 2Z" stroke="currentColor" stroke-width="1.6"/></svg>
+          </span>
+          <h4>Facebook Messenger</h4>
+          <p>Keep Facebook page conversations flowing into the same shared inbox as WhatsApp and Instagram.</p>
+        </div>
+      </div>
+
+      <div class="integration-note">
+        More channels can be added over time — the inbox is built to hold conversations from wherever your leads reach out.
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= INBOX ========================= -->
+  <section class="section-pad" id="inbox">
+    <div class="wrap">
+      <div class="feature-row">
+        <div class="feature-text">
+          <span class="kicker">Unified inbox</span>
+          <h3>One inbox for conversations from every channel</h3>
+          <p class="lede">Instead of switching between apps, your team works from a single shared inbox — with the full conversation history attached to every lead.</p>
+          <ul class="check-list">
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Shared inbox across WhatsApp, Instagram and Messenger</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Complete conversation history, in one timeline</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Staff replies and AI replies both visible, clearly labeled</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Message status, so nothing sits unanswered by accident</li>
+          </ul>
+        </div>
+        <div class="feature-visual">
+          <div class="panel-card">
+            <div class="panel-head">Inbox <span class="pill">3 channels</span></div>
+            <div class="panel-body" style="display:flex; flex-direction:column; gap:10px;">
+              <div class="mock-msg in">Hello! I'd like to know more about your recovery timeline.</div>
+              <div class="mock-msg ai">Recovery is usually discussed in detail during your consultation — would you like to book one?</div>
+              <div class="mock-msg out">I can also send our pre-consultation guide now if that helps.</div>
+              <span class="mock-tag" style="margin-top:4px;">Seen · Replied by Dana (staff) · 2m ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row reverse">
+        <div class="feature-text">
+          <span class="kicker">AI + human takeover</span>
+          <h3>Automation assists. Your staff stay in control.</h3>
+          <p class="lede">Automation can qualify leads, answer common questions and follow up — but any team member can take over a conversation at any moment, and hand it back to automation later.</p>
+          <ul class="check-list">
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> See every conversation, whether AI or staff-led</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Reply manually whenever you want to step in</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Take over from AI, and hand a conversation back later</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Nothing sends on the clinic's behalf without this being visible</li>
+          </ul>
+        </div>
+        <div class="feature-visual">
+          <div class="panel-card">
+            <div class="panel-head">Conversation control <span class="pill">Live</span></div>
+            <div class="panel-body">
+              <div class="takeover-toggle on">
+                <span class="knob"></span>
+                Automation handling this conversation
+              </div>
+              <div class="mock-msg ai">I can check available consultation times for you now.</div>
+              <div class="mock-msg out" style="margin-top:10px;">Taking over from here — this is Dana from the front desk.</div>
+              <span class="mock-tag" style="margin-top:8px;">Handed to staff by Dana · returns to automation after this thread</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== LEAD MANAGEMENT ===================== -->
+  <section class="section-pad tint">
+    <div class="wrap">
+      <div class="feature-row">
+        <div class="feature-text">
+          <span class="kicker">Lead management</span>
+          <h3>Every conversation becomes an organized lead</h3>
+          <p class="lede">Contact details, interest and history are kept together automatically, so your team always has context before replying.</p>
+          <ul class="check-list">
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Contact information and interested procedure</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Lead source, so you know where inquiries come from</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Follow-up status and appointment status</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Lead stage, from first message to booked consultation</li>
+          </ul>
+        </div>
+        <div class="feature-visual">
+          <div class="panel-card">
+            <div class="panel-head">Leads <span class="pill">128 active</span></div>
+            <div class="panel-body" style="padding-top:6px;">
+              <div class="lead-row">
+                <div><div class="lead-name">Maria R.</div><div class="lead-sub">Rhinoplasty · WhatsApp</div></div>
+                <div class="lead-sub">Follow-up due today</div>
+                <span class="stage-pill stage-new">New lead</span>
+              </div>
+              <div class="lead-row">
+                <div><div class="lead-name">Karim H.</div><div class="lead-sub">Consultation · Instagram</div></div>
+                <div class="lead-sub">Confirmed for Thu 3:30pm</div>
+                <span class="stage-pill stage-booked">Booked</span>
+              </div>
+              <div class="lead-row">
+                <div><div class="lead-name">Sophie L.</div><div class="lead-sub">Inquiry · Messenger</div></div>
+                <div class="lead-sub">No reply in 9 days</div>
+                <span class="stage-pill stage-follow">Needs follow-up</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= SCHEDULING ========================= -->
+  <section class="section-pad">
+    <div class="wrap">
+      <div class="feature-row reverse">
+        <div class="feature-text">
+          <span class="kicker">Scheduling</span>
+          <h3>Consultations booked without leaving the conversation</h3>
+          <p class="lede">Once a lead is ready, booking a consultation happens in the same place the conversation is already happening — no separate calendar tool to jump to.</p>
+          <ul class="check-list">
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Available consultation slots, shown in real time</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Consultations booked directly from the conversation</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Appointment management for staff, in one place</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Automatic follow-up around upcoming appointments</li>
+          </ul>
+        </div>
+        <div class="feature-visual">
+          <div class="panel-card">
+            <div class="panel-head">Thursday, consultation slots <span class="pill">This week</span></div>
+            <div class="panel-body">
+              <div class="slot-grid">
+                <div class="slot taken">9:00</div>
+                <div class="slot open">10:30</div>
+                <div class="slot taken">12:00</div>
+                <div class="slot open">1:30</div>
+                <div class="slot open">3:30</div>
+                <div class="slot taken">4:00</div>
+                <div class="slot open">5:00</div>
+                <div class="slot taken">5:30</div>
+              </div>
+              <span class="mock-tag" style="margin-top:14px;">4 open slots · 2 reminders scheduled automatically</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= CAMPAIGNS ========================= -->
+  <section class="section-pad tint" id="automation">
+    <div class="wrap">
+      <div class="feature-row">
+        <div class="feature-text">
+          <span class="kicker">Campaigns &amp; automation</span>
+          <h3>Follow-up that happens whether or not someone remembers to do it</h3>
+          <p class="lede">Set up campaigns once, and let automation handle the repetitive parts of staying in touch — reminders, nurturing, and reconnecting with leads who went quiet.</p>
+          <ul class="check-list">
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Follow-up campaigns for active leads</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Consultation reminder campaigns</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Lead nurturing and promotional outreach</li>
+            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8.5l3 3 7-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg> Old lead reactivation campaigns</li>
+          </ul>
+        </div>
+        <div class="feature-visual">
+          <div class="panel-card">
+            <div class="panel-head">Campaigns <span class="pill">4 active</span></div>
+            <div class="panel-body">
+              <div class="campaign-item">
+                <div><div class="name">Consultation reminders</div><div class="meta">Sends 24h before appointment</div></div>
+                <div class="campaign-progress"><i style="width:82%"></i></div>
+              </div>
+              <div class="campaign-item">
+                <div><div class="name">Old lead reactivation</div><div class="meta">Leads inactive 60+ days</div></div>
+                <div class="campaign-progress"><i style="width:46%"></i></div>
+              </div>
+              <div class="campaign-item">
+                <div><div class="name">New inquiry follow-up</div><div class="meta">No reply after 48 hours</div></div>
+                <div class="campaign-progress"><i style="width:64%"></i></div>
+              </div>
+              <div class="campaign-item">
+                <div><div class="name">Seasonal promotion</div><div class="meta">Scheduled, one-time send</div></div>
+                <div class="campaign-progress"><i style="width:20%"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== OLD LEAD REACTIVATION ===================== -->
+  <section class="section-pad" id="reactivation">
+    <div class="wrap">
+      <div class="reactivation">
+        <div>
+          <span class="kicker">Old lead reactivation</span>
+          <h2>Your next consultation may already be in your database.</h2>
+          <p class="lede">Most clinics have leads who inquired, never booked, and were never followed up with again. SculptFlow helps you reconnect with them — automatically, and without asking staff to dig through old chats.</p>
+          <a href="#demo" class="btn btn-primary">See reactivation in action</a>
+        </div>
+        <div class="reactivation-card">
+          <div class="reactivation-stat-row">
+            <span class="k">Leads inactive 60+ days</span>
+            <span class="v">Flagged</span>
+          </div>
+          <div class="reactivation-stat-row">
+            <span class="k">Reactivation message</span>
+            <span class="v">Sent automatically</span>
+          </div>
+          <div class="reactivation-stat-row">
+            <span class="k">Reply received</span>
+            <span class="v">Back in the inbox</span>
+          </div>
+          <div class="reactivation-stat-row">
+            <span class="k">Next step</span>
+            <span class="v">Staff follow-up or booking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== DASHBOARD OVERVIEW ===================== -->
+  <section class="section-pad tint">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker" style="justify-content:center">Dashboard</span>
+        <h2>Visibility into everything, from one screen</h2>
+        <p class="lede">A single dashboard shows what's happening across every channel, every lead, and every campaign — without needing to check each one separately.</p>
+      </div>
+
+      <div class="dash-window">
+        <div class="mock-titlebar">
+          <i></i><i></i><i></i>
+          <span>app.mysculptflow.com/dashboard</span>
+        </div>
+        <div class="dash-body">
+          <div class="dash-sidebar">
+            <div class="brand">SculptFlow</div>
+            <div class="item active">Dashboard</div>
+            <div class="item">Inbox</div>
+            <div class="item">Leads</div>
+            <div class="item">Appointments</div>
+            <div class="item">Campaigns</div>
+            <div class="item">Automations</div>
+            <div class="item">Integrations</div>
+          </div>
+          <div class="dash-main">
+            <div class="dash-cards">
+              <div class="dash-card"><div class="label">New leads</div><div class="value">—</div></div>
+              <div class="dash-card"><div class="label">Active conversations</div><div class="value">—</div></div>
+              <div class="dash-card"><div class="label">Consultations booked</div><div class="value">—</div></div>
+              <div class="dash-card"><div class="label">Upcoming appointments</div><div class="value">—</div></div>
+              <div class="dash-card"><div class="label">Active campaigns</div><div class="value">—</div></div>
+              <div class="dash-card"><div class="label">Recovered leads</div><div class="value">—</div></div>
+            </div>
+            <div class="dash-inbox-preview">
+              <div class="row"><span class="chan-dot" style="background:#1E8E5A"></span><span class="name">Maria R.</span><span class="snip">Do you have consultation slots this month?</span><span class="mock-tag" style="margin:0;">WhatsApp</span></div>
+              <div class="row"><span class="chan-dot" style="background:#C13584"></span><span class="name">Karim H.</span><span class="snip">Thank you, see you Thursday!</span><span class="mock-tag" style="margin:0;">Instagram</span></div>
+              <div class="row"><span class="chan-dot" style="background:#0A66C2"></span><span class="name">Sophie L.</span><span class="snip">Can I ask about recovery time first?</span><span class="mock-tag" style="margin:0;">Messenger</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p style="text-align:center; color:var(--ink-faint); font-size:0.8125rem; margin-top:16px;">Illustrative preview of the SculptFlow dashboard — actual numbers reflect your clinic's real activity.</p>
+    </div>
+  </section>
+
+  <!-- ============================ FAQ ============================ -->
+  <section class="section-pad" id="faq">
+    <div class="wrap">
+      <div class="section-head center">
+        <span class="kicker" style="justify-content:center">FAQ</span>
+        <h2>Questions clinics ask us</h2>
+      </div>
+
+      <div class="faq-list" id="faqList">
+        <div class="faq-item">
+          <button class="faq-q"><span>What is SculptFlow?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>SculptFlow is a communication, lead management and automation platform built for plastic surgery and aesthetic clinics. It brings conversations, leads, scheduling and campaigns together in one place.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Which messaging channels can SculptFlow connect with?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>SculptFlow connects with WhatsApp, Instagram and Facebook Messenger, bringing conversations from all three into one shared inbox.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Can we manage WhatsApp, Instagram and Messenger in one inbox?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. Conversations from all three channels appear in a single shared inbox, with full history kept together for each lead.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Can staff take over automated conversations?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. Staff can see any conversation, reply manually at any time, take over from automation, and hand a conversation back to automation afterward.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Can SculptFlow schedule consultations?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. SculptFlow shows available consultation slots, lets leads book directly from a conversation, and helps manage appointments and related follow-up.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Can SculptFlow follow up with old leads?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. Old lead reactivation campaigns help clinics reconnect with leads who inquired in the past but never booked a consultation.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Can we run campaigns?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>Yes. SculptFlow supports follow-up campaigns, consultation reminders, lead nurturing, promotional outreach and old lead reactivation campaigns.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q"><span>Does SculptFlow replace clinic staff?</span><span class="plus"></span></button>
+          <div class="faq-a"><p>No. SculptFlow is not a replacement for clinic staff. Automation assists with conversations, lead qualification and follow-up, but staff remain in control and can take over any conversation at any time. SculptFlow does not provide medical advice or diagnoses.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================= DEMO CTA ========================= -->
+  <section class="section-pad" id="demo">
+    <div class="wrap">
+      <div class="demo-cta">
+        <span class="kicker" style="justify-content:center">Get started</span>
+        <h2>See SculptFlow with your clinic's own conversations</h2>
+        <p class="lede">Request a demo and we'll walk through how integrations, the inbox, leads, scheduling and campaigns fit your clinic's workflow.</p>
+        <form class="demo-form" id="demoForm">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Work email" required>
+          <button type="submit" class="btn btn-primary">Request a demo</button>
+        </form>
+        <p class="demo-status" id="demoStatus" role="status" aria-live="polite"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- =========================== FOOTER =========================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="logo"><span class="logo-mark" aria-hidden="true"></span>SculptFlow</a>
+        <p>Communication, lead management and automation for plastic surgery and aesthetic clinics.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Product</h5>
+        <ul>
+          <li><a href="#integrations">Integrations</a></li>
+          <li><a href="#inbox">Unified inbox</a></li>
+          <li><a href="#automation">Campaigns &amp; automation</a></li>
+          <li><a href="#reactivation">Lead reactivation</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#demo">Request a demo</a></li>
+          <li><a href="mailto:hello@mysculptflow.com">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="mailto:hello@mysculptflow.com">hello@mysculptflow.com</a></li>
+          <li><a href="https://mysculptflow.com">mysculptflow.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SculptFlow. All rights reserved.</span>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
